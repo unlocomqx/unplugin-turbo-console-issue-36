@@ -1,12 +1,3 @@
-<script>
-    import {initWebSocket} from "~console";
-    import {browser} from "$app/environment";
-
-    if (browser) {
-        initWebSocket();
-    }
-</script>
-
 <p>
     Server logs before client init are not displayed in the client console.
 </p>
